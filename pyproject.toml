@@ -16,8 +16,8 @@ dependencies = ["requests>=2.28.0"]
 storyboard = "storyboard.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/yanshangcha01/ai-storyboard-optimizer"
-Repository = "https://github.com/yanshangcha01/ai-storyboard-optimizer"
+Homepage = "https://github.com/yanshangcha01/jiaobenyouhua-duanship"
+Repository = "https://github.com/yanshangcha01/jiaobenyouhua-duanship"
 
 [tool.setuptools.packages.find]
 where = ["src"]

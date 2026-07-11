@@ -28,7 +28,7 @@
 ### 安装
 
 ```bash
-git clone https://github.com/yanshangcha01/ai-storyboard-optimizer.git
+git clone https://github.com/yanshangcha01/jiaobenyouhua-duanship.git
 cd ai-storyboard-optimizer
 pip install -e .
 ```
