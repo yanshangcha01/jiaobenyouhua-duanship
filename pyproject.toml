@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "storyboard-optimizer"
+version = "0.1.0"
+description = "AI 分镜脚本优化师：将文学剧本/故事描述转化为结构化、可拍摄、可直接喂给 AI 绘图工具的分镜脚本"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["storyboard", "分镜", "ai", "script", "film", "prompt"]
+dependencies = ["requests>=2.28.0"]
+
+[project.scripts]
+storyboard = "storyboard.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/your-org/ai-storyboard-optimizer"
+Repository = "https://github.com/your-org/ai-storyboard-optimizer"
+
+[tool.setuptools.packages.find]
+where = ["src"]
