@@ -75,6 +75,11 @@ ai-storyboard-optimizer/
 │   ├── exporters.py     # Markdown / CSV / JSON 导出
 │   └── cli.py           # 命令行入口
 ├── examples/            # 示例脚本与输出
+│   ├── sample_script.txt     # 示例文学剧本（输入）
+│   ├── output_example.md     # 示例分镜脚本输出
+│   └── shooting-scripts/     # 短视频分镜脚本模板与方法论
+│       ├── SCRIPT-TEMPLATE.md    # 短视频分镜脚本写作模板
+│       └── SCRIPT-METHODOLOGY.md # 脚本创作方法论规范
 ├── tests/               # 基础测试
 ├── GUIDE.md             # AI 分镜脚本优化师能力指南（必读）
 ├── README.md
